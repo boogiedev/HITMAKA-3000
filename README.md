@@ -29,9 +29,12 @@
 
 ## Exploring Data
 
-SOURCES             | TYPE | SIZE
+SOURCES             | TYPE | METRIC
 :-------------------------:|:-------------------------:|:-------------------------:|
-![GENIUS API](https://docs.genius.com/)  | Lyrics, Top Charts |  100
+![BILLBOARD YEAR-END CHARTS](https://www.billboard.com/charts/year-end/2019/hot-r-and-and-b-hip-hop-songs)  | Top Charts |  2015-2020
+![GENIUS API](https://docs.genius.com/)  | Lyrics |  *
+
+
 
 
 ### Web Scraping
