@@ -12,9 +12,10 @@
   - [Context](#context)
   - [Goal](#goal)
 - [Exploring Data](#exploring-data)
+  - [Web Scraping](#web-scraping)
   - [Initial Intake](#initial-intake)
-  - [Feature Engineering](#feature-engineering)
 - [Language Processing](#language-processing)
+
   - [Tokenizing](#tokenizing)
   - [Visualizations](#visualizations)
 - [Future Considerations](#future-considerations)
@@ -33,6 +34,10 @@ SOURCES             | TIMEFRAME | N_RECORDS
 :-------------------------:|:-------------------------:|:-------------------------:|
 ![NUFORC](http://www.nuforc.org/)  | MAY 10th 2017 |  100
 
+
+### Web Scraping
+
+
 ### Initial Intake
 
 Here is a detailed description of the intake data:
@@ -43,7 +48,6 @@ Here is a detailed description of the intake data:
 </p>
 
 
-### Feature Engineering / Data Cleaning
 
 ### Visualizations
 
