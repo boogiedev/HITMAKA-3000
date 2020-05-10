@@ -1,5 +1,6 @@
 # Ignore Folders
 data/
+credentials/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
