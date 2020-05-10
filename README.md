@@ -1,4 +1,4 @@
-![HITMAKA HEADER](https://github.com/boogiedev/HITMAKA-3000/blob/master/media/hitmaka30fpsheader.gif)
+![HITMAKA HEADER](https://github.com/boogiedev/HITMAKA-3000/blob/master/media/hitmaka30.gif)
 > An exploration of the hip-hop music industry and what it lyrically takes to gain traction
 
 <p align="center">
