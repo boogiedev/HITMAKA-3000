@@ -15,7 +15,6 @@
   - [Web Scraping](#web-scraping)
   - [Initial Intake](#initial-intake)
 - [Language Processing](#language-processing)
-
   - [Tokenizing](#tokenizing)
   - [Visualizations](#visualizations)
 - [Future Considerations](#future-considerations)
@@ -30,12 +29,13 @@
 
 ## Exploring Data
 
-SOURCES             | TIMEFRAME | N_RECORDS
+SOURCES             | TYPE | SIZE
 :-------------------------:|:-------------------------:|:-------------------------:|
-![NUFORC](http://www.nuforc.org/)  | MAY 10th 2017 |  100
+![GENIUS API](https://docs.genius.com/)  | Lyrics, Top Charts |  100
 
 
 ### Web Scraping
+
 
 
 ### Initial Intake
