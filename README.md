@@ -2,7 +2,8 @@
 > An exploration of the hip-hop music industry and what it lyrically takes to gain traction
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Maintained%3F-IN PROG-blue?style=flat-square"></img>
+  <img src="https://img.shields.io/badge/Maintained%3F-IN PROG-green?style=flat-square"></img>
+  <img src="https://img.shields.io/github/commit-activity/m/boogiedev/HITMAKA-3000?style=flat-square">
 </p>
 
 
