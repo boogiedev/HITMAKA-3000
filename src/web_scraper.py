@@ -85,7 +85,8 @@ def scrape_data() -> pd.DataFrame:
     
     return df
 
-if '__name__' == __main__:
+
+def run_scrape():
     # Ask user for path
     print("""Would you like to specify a path: 
 *if not specified, output CSV will be in current directory*""")
@@ -99,3 +100,6 @@ if '__name__' == __main__:
     else:
         cwd = os.getcwd()
         data.to_csv(cwd)
+
+if __name__ == '__main__':
+    run_scrape()
