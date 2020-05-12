@@ -95,11 +95,12 @@ def run_scrape():
     data = scrape_data()
     print("\nDone!")
     
+    name = 'data.csv'
     if path:
         data.to_csv(path)
     else:
         cwd = os.getcwd()
-        data.to_csv(cwd)
+        data.to_csv(name)
 
 if __name__ == '__main__':
     run_scrape()
