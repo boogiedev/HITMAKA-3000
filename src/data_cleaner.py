@@ -3,15 +3,24 @@
 # Import Modules
 import copy
 import numpy as np
+import nltk
 import pandas as pd
 from pprint import pprint
 import json
 import requests
 from bs4 import BeautifulSoup
+import unicodedata
 from urllib.parse import urlencode
 import re
 
 # Import Custom Modules
+
+
+
+def remove_accents(input_str):
+    nfkd_form = unicodedata.normalize('NFKD', input_str)
+    only_ascii = nfkd_form.encode('ASCII', 'ignore')
+    return only_ascii.decode()
 
 
 # Create Text Cleaning Function
