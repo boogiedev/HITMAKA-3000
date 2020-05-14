@@ -59,7 +59,35 @@ Here is a detailed description of the intake data:
 ### Visualizations
 
 
-[LDA Report](https://boogiedev.github.io/HITMAKA-3000/lda.html)
+[Pre LDA Report](https://boogiedev.github.io/HITMAKA-3000/lda.html)
+[Post LDA Report](https://boogiedev.github.io/HITMAKA-3000/post_lda.html)
+
+#### LDA Results
+
+```python
+Topics found via LDA:
+
+Topic #0:
+expletive_0 love uh expletive_1 woo expletive_6 baby man money expletive_3 skrrt drop thun cardi bad
+
+Topic #1:
+expletive_3 expletive_1 expletive_0 expletive_4 baby love right cause time say god real tell want better
+
+Topic #2:
+gang gucci watch lil wicked drake cut love west kanye bust expletive_3 bop expletive_1 young
+
+Topic #3:
+hitta hittas love lil 2016 money black expletive_3 young ring saying rake world rich mask
+
+Topic #4:
+expletive_0 expletive_1 walk expletive_3 want love nothin talk money bout feel ball bank taste young
+
+Topic #5:
+expletive_0 expletive_3 expletive_4 hol really expletive_1 look want man em say cause money keys feel
+
+Topic #6:
+expletive_0 expletive_1 expletive_3 baby want expletive_4 hit love pop right expletive_2 ta girl cause money
+```
 
 ---
 
