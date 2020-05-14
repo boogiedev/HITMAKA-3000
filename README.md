@@ -61,6 +61,8 @@ Here is a detailed description of the intake data:
 
 #### Scrape Lyrics
 
+In order to get started in making hte ***K O D A K  B O T  3 0 0 0***, I used the ![GENIUS API](https://docs.genius.com/), as well as a library ![LyricsGenius](https://github.com/johnwmillr/LyricsGenius) that helps in scraping the data. 
+
 <p>
   <img align="right" src="https://gifimage.net/wp-content/uploads/2018/04/kodak-black-gif-6.gif"></img>
 </p>
@@ -74,7 +76,8 @@ api = genius.Genius(client_token)
 artist = api.search_artist(trg_artist)
 ```
 
-Searching for songs by Kodak Black...
+When scraping for all of Kodak's songs, we ended up with a total of 267 songs, the sample data in table below is truncated.
+
 NUM            | SONG | 
 :-------------------------:|:-------------------------:|
 Song 1 | "Tunnel Vision"
@@ -82,14 +85,11 @@ Song 2 | "No Flockin"
 Song 3 | "Roll in Peace"
 Song 4 | "ZEZE"
 Song 5 | "SKRT"
-Song 6 | "There He Go"
-Song 7 | "Skrilla"
-Song 8 | "Codeine Dreaming"
-Song 9 | "Transportin’"
-Song 10 | "Too Many Years"
+
 
 #### Lyric Format
 
+After scraping the lyrics, we now have to access the JSON data and pull out the individual lyrics per song, let's take a look at the structuing of the JSON file.
 
 <p >
 
