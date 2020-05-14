@@ -145,4 +145,3 @@ def scrape_song_lyrics_from_url(response:str, remove_section_headers=True) -> st
     return lyrics.strip("\n")
 
 
-

@@ -34,3 +34,8 @@ def clean_text(df:pd.DataFrame, text_field:str, new_text_field_name:str) -> pd.D
     return df_cop
 
 
+
+def remove_headers(lyrics:str) -> str:
+    lyrics = re.sub('(\[.*?\])*', '', lyrics)
+    lyrics = re.sub('\n{2}', '\n', lyrics)  # Gaps between verses
+    return lyrics
