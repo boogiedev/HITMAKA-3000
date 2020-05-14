@@ -90,13 +90,19 @@ Song 10 | "Too Many Years"
 
 #### Lyric Format
 
+
+<p >
+
 ```python
 # Save Lyrics from Artist
 aux = artist.save_lyrics(filename='lyrics.json', overwrite=True, verbose=True)
 ```
-<p align="center">
-  <img src="https://raw.githubusercontent.com/boogiedev/HITMAKA-3000/master/media/kodakscrape" width='80%'></img>
+
+  <img src="https://raw.githubusercontent.com/boogiedev/HITMAKA-3000/master/media/kodakscrape.PNG" width='80%'></img>
 </p>
+
+
+
 
 ## Future Considerations
 
