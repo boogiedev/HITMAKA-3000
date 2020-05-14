@@ -102,6 +102,23 @@ aux = artist.save_lyrics(filename='lyrics.json', overwrite=True, verbose=True)
   <img src="https://raw.githubusercontent.com/boogiedev/HITMAKA-3000/master/media/kodakscrape.PNG" width='80%'></img>
 </p>
 
+#### Cleaning 
+
+Sample of pre-clean tokens from NLTK *word_tokenize* function
+```python
+['glee', 'southside', 'ayy', ',', 'lil', 'metro', 'beat', 'lil', 'kodak', ',', 'dont', 'like', 
+'see', 'winnin', 'wan', 'na', 'see', 'penitentiary', 'need', 'lil', 'baby', 'gon', 'listen',
+'girl', ',', 'dont', 'wan', 'na', 'one', 'iggin']
+```
+It seems like with the NLTK module, some of the slang and informal spelling of words become chopped up... looks like we have to make our own tokenizer!
+
+```python
+['glee', 'southside', 'ayy', 'lil', 'metro', 'on', 'that', 'beat', 'lil', 'kodak', 'they', 'dont', 'like', 
+'to', 'see', 'you', 'winnin', 'they', 'wanna', 'see', 'you', 'in', 'the', 'penitentiary', 'i', 'need', 'me', 
+'a', 'lil', 'baby', 'who', 'gon', 'listen', 'girl', 'i', 'dont', 'wanna', 'be', 'the', 'one', 'you', 'iggin']
+```
+
+This looks so much better!
 
 
 
