@@ -13,13 +13,18 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-def match_dummies(item:str):
+def match_dummies(item:str, rep_word:bool=True):
     """Replaces profanity with dummy word"""
     bad_prefixes = ['nig', 'bitc', 'puss', 'fuc', 'shit', 'hoe', 'ass', 'cock', 'fag', 'tits', 'cunt', 'dick', 'piss']
-    replace_prefixes = [f"expletive_{i}" for i in range(len(bad_prefixes))]
-    for pre, rep in zip(bad_prefixes, replace_prefixes):
-        match = r'({bad_prefix})(.*?)\b'.format(bad_prefix=pre)
-        item = re.sub(match, rep, item)
+    if rep_word:
+        replace_prefixes = [f"expletive_{i}" for i in range(len(bad_prefixes))]
+        for pre, rep in zip(bad_prefixes, replace_prefixes):
+            match = r'({bad_prefix})(.*?)\b'.format(bad_prefix=pre)
+            item = re.sub(match, rep, item)
+    else:
+        for pre in bad_prefixes:
+            match = r'({bad_prefix})(.*?)\b'.format(bad_prefix=pre)
+            item = re.sub(match, '', item)
     return item
 
 # Helper function
