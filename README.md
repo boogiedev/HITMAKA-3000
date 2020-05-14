@@ -61,7 +61,7 @@ Here is a detailed description of the intake data:
 
 #### Scrape Lyrics
 
-In order to get started in making hte ***K O D A K  B O T  3 0 0 0***, I used the [GENIUS API](https://docs.genius.com/), as well as a library [LyricsGenius](https://github.com/johnwmillr/LyricsGenius) that helps in scraping the data. 
+In order to get started in making the ***K O D A K  B O T  3 0 0 0***, I used the [GENIUS API](https://docs.genius.com/), as well as a library [LyricsGenius](https://github.com/johnwmillr/LyricsGenius) that helps in scraping the data. 
 
 <p>
   <img align="right" src="https://gifimage.net/wp-content/uploads/2018/04/kodak-black-gif-6.gif"></img>
