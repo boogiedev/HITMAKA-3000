@@ -45,6 +45,8 @@ SOURCES             | TYPE | METRIC
 
 ### Initial Intake
 
+Just found out that the data that I scraped is flawed, from 2000-2013, the billboard website is glitched and are reporting the same songs for those 13 years.
+
 Here is a detailed description of the intake data:
 - `ID`: Report ID
 
