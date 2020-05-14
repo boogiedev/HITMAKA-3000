@@ -56,6 +56,7 @@ Here is a detailed description of the intake data:
 
 ### Visualizations
 
+---
 
 # K O D A K  B O T  3 0 0 0
 
