@@ -56,6 +56,9 @@ Here is a detailed description of the intake data:
 
 ### Visualizations
 
+
+[LDA Report](https://boogiedev.github.io/HITMAKA-3000/lda.html)
+
 ---
 
 # K O D A K  B O T  3 0 0 0
