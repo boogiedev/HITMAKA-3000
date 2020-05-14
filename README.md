@@ -59,6 +59,8 @@ Here is a detailed description of the intake data:
 
 # K O D A K  B O T  3 0 0 0
 
+#### Scrape Lyrics
+
 <p>
   <img align="right" src="https://gifimage.net/wp-content/uploads/2018/04/kodak-black-gif-6.gif"></img>
 </p>
@@ -73,7 +75,6 @@ artist = api.search_artist(trg_artist)
 ```
 
 Searching for songs by Kodak Black...
-
 NUM            | SONG | 
 :-------------------------:|:-------------------------:|
 Song 1 | "Tunnel Vision"
@@ -87,7 +88,15 @@ Song 8 | "Codeine Dreaming"
 Song 9 | "Transportin’"
 Song 10 | "Too Many Years"
 
+#### Lyric Format
 
+```python
+# Save Lyrics from Artist
+aux = artist.save_lyrics(filename='lyrics.json', overwrite=True, verbose=True)
+```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/boogiedev/HITMAKA-3000/master/media/kodakscrape" width='80%'></img>
+</p>
 
 ## Future Considerations
 
