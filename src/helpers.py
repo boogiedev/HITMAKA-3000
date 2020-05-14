@@ -145,3 +145,83 @@ def scrape_song_lyrics_from_url(response:str, remove_section_headers=True) -> st
     return lyrics.strip("\n")
 
 
+problem_lyrics = """I love bad bitches that's my fuckin' problem (problem)
+And yeah, I like to fuck I got a fuckin' problem (true)
+I love bad bitches that's my fuckin' problem (problem)
+And yeah, I like to fuck I got a fuckin' problem (true)
+I love bad bitches that's my fuckin' problem (problem)
+And yeah, I like to fuck I got a fuckin' problem (true)
+If findin' somebody real is your fuckin' problem
+Bring your girls to the crib maybe we can solve it
+Hold up, bitches simmer down (uh)
+Takin' hella long bitch give it to me now (uh)
+Make that thing pop like a semi or a nine
+Oh, baby like it raw with a shimmy shimmy ya huah
+A$AP, get like me
+Never met a mother fucker fresh like me
+All these motherfuckers wanna dress like me
+Put the chrome to your dome make you sweat like Keith
+'Cause I'm the nigga, the nigga nigga, like how you figure?
+Getting figures and fuckin' bitches
+She rollin Swishers, brought her bitches
+I brought my niggas, they getting bent up off the liquor
+She love my licorice, I let her lick it
+They say money make a nigga act nigga-ish
+But at least a nigga nigga rich
+I be fuckin' broads like I be fuckin' bored
+Turn a dyke bitch out have her fuckin' boys, beast
+I love bad bitches that's my fuckin' problem (problem)
+And yeah, I like to fuck I got a fuckin' problem (true)
+I love bad bitches that's my fuckin' problem (problem)
+And yeah, I like to fuck I got a fuckin' problem (true)
+I love bad bitches that's my fuckin' problem (problem)
+And yeah, I like to fuck I got a fuckin' problem (true)
+If findin' somebody real is your fuckin' problem
+Bring your girls to the crib maybe we can solve it
+Ooh, I know you love it when this beat is on
+Make you think about all of the niggas you've been leading on
+Make me think about all of the rappers I've been feeding on
+Got a feeling that's the same dudes that we speakin' on, oh word?
+You ain't heard my album? Who you sleepin' on?
+You should print the lyrics out and have a fucking read-along
+Ain't a fucking sing-along 'less you brought the weed along
+Then ju' (okay, I got it) then just drop down and get your eagle on
+Or we can stare up at the stars and put The Beatles on
+All that shit you talkin' 'bout is not up for discussion
+I will pay to make it bigger I don't pay for no reduction
+If it's comin' from a nigga I don't know, then I don't trust it
+If you comin' for my head, then mothafucka' get to bustin'
+Yes Lord, I don't really say this often
+But this long dick nigga ain't for the long talkin', I beast
+I love bad bitches that's my fuckin' problem (problem)
+And yeah, I like to fuck I got a fuckin' problem (true)
+I love bad bitches that's my fuckin' problem (problem)
+And yeah, I like to fuck I got a fuckin' problem (true)
+I love bad bitches that's my fuckin' problem (problem)
+And yeah, I like to fuck I got a fuckin' problem (true)
+If findin' somebody real is your fuckin' problem
+Bring your girls to the crib maybe we can solve it
+Uh, yeah, hoe this the finale
+My pep talk turn into a pep rally
+Say she's from the hood but she live inside in the Valley now
+Vacate in Atlanta, then she going back to Cali, mmm
+Got your girl on my line, world on my line
+The irony I fuck 'em at the same damn time
+She eyein' me like a nigga don't exist
+Girl, I know you want this dick
+Girl, I'm Kendrick Lamar, mmm
+A.K.A. Benz is to me is just a car, mmm
+That mean your friends need to be up to par
+See my standards are papered by threesomes tomorrow, mmm
+Kill 'em all dead bodies in the hallway
+Don't get involved listen what the crystal ball say
+Halle Berry, hallelujah
+Holla back I'll do ya, beast
+I love bad bitches that's my fuckin' problem (problem)
+And yeah, I like to fuck I got a fuckin' problem (true)
+I love bad bitches that's my fuckin' problem (problem)
+And yeah, I like to fuck I got a fuckin' problem (true)
+I love bad bitches that's my fuckin' problem (problem)
+And yeah, I like to fuck I got a fuckin' problem (true)
+If findin' somebody real is your fuckin' problem
+Bring your girls to the crib maybe we can solve it, ay"""

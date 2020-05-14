@@ -43,3 +43,11 @@ def plot_10_most_common_words(count_data, count_vectorizer, title:str='10 most c
     plt.xlabel('words')
     plt.ylabel('counts')
     plt.show()
+    
+# Helper function
+def print_topics(model, count_vectorizer, n_top_words):
+    words = count_vectorizer.get_feature_names()
+    for topic_idx, topic in enumerate(model.components_):
+        print("\nTopic #%d:" % topic_idx)
+        print(" ".join([words[i]
+                        for i in topic.argsort()[:-n_top_words - 1:-1]]))
