@@ -23,9 +23,7 @@
 - [License](#license)
 
 
-## Basic Overview
-
-### Context
+# HITMAKA INDUSTRIES 
 
 Are you an aspiring SoundCloud rapper? Are you tired of spamming clickbait comments on social media to gain views? 
 
@@ -36,6 +34,13 @@ It will help you with:
 - Theme
 - Flexmeter (Patented)
 - AD LIBZ (beta testing)
+
+You're now wondering HOW we were able to do all of this? Let us show you...
+
+
+## Basic Overview
+
+### Context
 
 ### Goal
 
