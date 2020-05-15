@@ -18,6 +18,7 @@
 - [Language Processing](#language-processing)
   - [Text Cleaning](#text-cleaning)
   - [Visualizations](#visualizations)
+- [Topic Modeling](#topic-modeling)
   - [Latent Dirichlet Allocation](#latent-dirichlet-allocation)
 - [**K O D A K  B O T  3 0 0 0**](#k-o-d-a-k--b-o-t--3-0-0-0)
 - [Future Considerations](#future-considerations)
@@ -242,9 +243,11 @@ gettingswindledandpimped | gettingswindledandpimp | gettingswindledandpimp | get
 ### Visualizations
 
 
-## Latent Dirichlet Allocation
 
-#### LDA Results
+
+## Topic Modeling
+
+### Latent Dirichlet Allocation
 
 #### Baseline LDA:
 
