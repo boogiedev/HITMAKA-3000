@@ -18,12 +18,18 @@
 - [Language Processing](#language-processing)
   - [Text Cleaning](#text-cleaning)
   - [Visualizations](#visualizations)
+- [Topic Modeling](#topic-modeling)
   - [Latent Dirichlet Allocation](#latent-dirichlet-allocation)
 - [**K O D A K  B O T  3 0 0 0**](#k-o-d-a-k--b-o-t--3-0-0-0)
 - [Future Considerations](#future-considerations)
 - [License](#license)
 
-
+<details>
+  <summary>
+    Business Context
+  </summary>
+  
+  
 # HITMAKA INDUSTRIES 
 
 ***Are you an aspiring SoundCloud rapper? Are you tired of spamming clickbait comments on social media to gain views?***
@@ -43,6 +49,11 @@ It will help you with:
 - AD LIBZ (beta testing)
 
 You're now wondering HOW we were able to do all of this? Let us show you...
+
+
+
+</details>
+
 
 
 ## Basic Overview
@@ -76,7 +87,7 @@ The above example as opposed to this below will yeild different results:
 The original goal of this project was to use NLP techniques, combined with Neural Netowrks in order to gain insight as to ***What makes a hit rap song?***. Althought this is a generally broad question (since rap music cannot be boiled down to simply words), the idea was to source the top 100 rap songs from each year and using the NLTK suite, find thematic elements, common trends, and the top words that were prevalent in the top songs.
 
 **TLDR**:
-The goal of this project ended up shifting into **TOPIC MODELING** rather than a discrete prediction value. 
+The goal of this project ended up shifting into *unsupervised* **TOPIC MODELING** rather than a discrete prediction value. 
 The main blockage that led to this ended up being very insightful to my understanding of the NLP field. 
 
 
@@ -186,7 +197,9 @@ The following was removed/changed:
 - Lyric Headers
 - Casing (standardized to lowercase)
 - Replace expletives with codes
-- Remove Stop Words (standard NLTK 'english')
+- Remove Stop Words (standard NLTK 'english', later revised to custom stop words)
+
+custom_stop = ['im', 'thats', 'ya', 'though', 'yeah', 'like', 'got', '2018', 'know', 'get', 'aint', 'ayy', 'go', 'na', 'back', 'one', 'gon', 'make', 'wan', 'thats', 'need', 'oh', 'see', 'feat', 'ooh', 'said', 'way', "2017", "la", 'lets', 'ft', 'let', 'hey', 'ima', 'uoeno', 'oohoohoohooh', 'ah', 'js', 'pare']
 
 
 #### Attempt to Stem/Lemmatize
@@ -242,9 +255,24 @@ gettingswindledandpimped | gettingswindledandpimp | gettingswindledandpimp | get
 ### Visualizations
 
 
-## Latent Dirichlet Allocation
 
-#### LDA Results
+
+## Topic Modeling
+
+### Latent Dirichlet Allocation
+
+***What is LDA?***
+
+</br>
+
+Topic modelling refers to the task of identifying topics that best describes a set of documents. These topics will only emerge during the topic modelling process (therefore called latent). And one popular topic modelling technique is known as Latent Dirichlet Allocation (LDA). Though the name is a mouthful, the concept behind this is very simple.
+
+</br>
+
+To tell briefly, LDA imagines a fixed set of topics. Each topic represents a set of words. And the goal of LDA is to map all the documents to the topics in a way, such that the words in each document are mostly captured by those imaginary topics. We will systematically go through this method by the end which you will be comfortable enough to use this method on your own.
+
+<img align='center' src='https://miro.medium.com/max/1400/1*QQTk2TGyzhakGh0lZ9P03w.jpeg' />
+
 
 #### Baseline LDA:
 
