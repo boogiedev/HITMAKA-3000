@@ -273,7 +273,7 @@ want pop uh problem stop love bad right say em feelin look money tryna mind roll
 
 #### LDA Visualizations:
 
-PRE LDA             |  FINAL LDA
+[PRE LDA](https://boogiedev.github.io/HITMAKA-3000/lda.html)             |  [FINAL LDA](https://boogiedev.github.io/HITMAKA-3000/post_lda.html)
 :-------------------------:|:-------------------------:
 ![](https://github.com/boogiedev/HITMAKA-3000/blob/master/media/pre_lda.gif)  |  ![](https://github.com/boogiedev/HITMAKA-3000/blob/master/media/final_lda.gif)
 
