@@ -73,9 +73,12 @@ Here is a detailed description of the intake data:
 
 ### Visualizations
 
+LDA             | 
+:-------------------------:|
+[Pre LDA Report](https://boogiedev.github.io/HITMAKA-3000/lda.html)  |
+[Post LDA Report](https://boogiedev.github.io/HITMAKA-3000/post_lda.html)  | 
 
-[Pre LDA Report](https://boogiedev.github.io/HITMAKA-3000/lda.html)
-[Post LDA Report](https://boogiedev.github.io/HITMAKA-3000/post_lda.html)
+
 
 #### LDA Results
 
@@ -167,6 +170,53 @@ It seems like with the NLTK module, some of the slang and informal spelling of w
 ```
 
 This looks so much better!
+
+### RAP Generation via RNN
+
+```python
+%tensorflow_version 1.x
+
+from google.colab import files
+from textgenrnn import textgenrnn
+from datetime import datetime
+import os
+
+textgen.train_from_file('kodak_lyrics.txt', num_epochs=20)
+```
+
+#### Epoch 1
+```
+15,322 texts collected.
+Training on 641,134 character sequences.
+Epoch 1/20
+5008/5008 [==============================] - 64s 13ms/step - loss: 1.3509
+####################
+Temperature: 0.2
+####################
+i dont want no more but i aint got no more baby
+
+i got this **** in the street (yeah)
+
+i was still a lil ****** when i got the streets
+
+####################
+```
+
+#### Epoch 20 @ Different Temperature Hyperparameters
+```
+Epoch 20/20
+5008/5008 [==============================] - 61s 12ms/step - loss: 0.9543
+```
+<span>
+  <img src="https://raw.githubusercontent.com/boogiedev/HITMAKA-3000/master/media/temp1.PNG">
+  </img>
+  
+  <img src="https://raw.githubusercontent.com/boogiedev/HITMAKA-3000/master/media/temp2.PNG">
+  </img>
+  
+  <img src="https://raw.githubusercontent.com/boogiedev/HITMAKA-3000/master/media/temp3.PNG">
+  </img>
+</span>
 
 
 
