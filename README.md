@@ -177,7 +177,11 @@ This looks so much better!
 </p>
 
 
-***We had to stop because the KODAKBOT started becoming self aware, so we ceased to push this endeavour in order to protect humanity (and the rap scene). He's TOO EVOLVED, HIS MOVEMENTS ARE TOO FAST, HIS LYRICALITY IS INSANE***
+***We had to stop because the KODAKBOT started becoming self aware, so we ceased to push this endeavour in order to protect humanity (and the rap scene).*** 
+
+***HE'S TOO EVOLVED, 
+HIS MOVEMENTS ARE TOO FAST, 
+HIS LYRICALITY IS INSANE***
 
 <br/>
 
