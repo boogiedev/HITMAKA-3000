@@ -24,7 +24,12 @@
 - [Future Considerations](#future-considerations)
 - [License](#license)
 
-
+<details>
+  <summary>
+    Business Context
+  </summary>
+  
+  
 # HITMAKA INDUSTRIES 
 
 ***Are you an aspiring SoundCloud rapper? Are you tired of spamming clickbait comments on social media to gain views?***
@@ -44,6 +49,11 @@ It will help you with:
 - AD LIBZ (beta testing)
 
 You're now wondering HOW we were able to do all of this? Let us show you...
+
+
+
+</details>
+
 
 
 ## Basic Overview
