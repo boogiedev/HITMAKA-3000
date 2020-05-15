@@ -100,8 +100,6 @@ NUM  |  SOURCES             | TYPE | METRIC
 </p>
 
 
-
-
 ### Web Scraping
 
 After finding where I wanted to source my data from, I wrote a program to automatically find and parse the top songs from the years 2010-2020 as well as find the lyrics, artist, and other meta-data that belonged to each song. 
@@ -180,6 +178,66 @@ Here is a detailed description of the intake data:
 ## Language Processing
 
 ### Text Cleaning
+
+The standard text-cleaning procedure was used to process the lyric data.
+
+The following was removed/changed:
+- Punctuation
+- Lyric Headers
+- Casing (standardized to lowercase)
+- Replace expletives with codes
+- Remove Stop Words (standard NLTK 'english')
+
+
+#### Attempt to Stem/Lemmatize
+
+<details >
+  <summary>
+    Stemming/Lemmatize Functions
+  </summary>
+
+
+```python
+# Create Porter, Snowball, WordNet Objects
+porter = PorterStemmer()
+snowball = SnowballStemmer('english')
+wordnet = WordNetLemmatizer()
+
+# Get functions from each object
+porter_func = porter.stem
+snowball_func = snowball.stem
+wordnet_func = wordnet.lemmatize
+
+# Create lambda func to easily apply func to each token
+get_root = lambda tokens, func: [func(token) for token in tokens] 
+
+# Get Tokens for each type of processor
+porter_tokens = data['tokens'].apply(lambda x: get_root(x, porter_func)) 
+snowball_tokens = data['tokens'].apply(lambda x: get_root(x, snowball_func)) 
+wordnet_tokens = data['tokens'].apply(lambda x: get_root(x, wordnet_func)) 
+
+```
+
+</details>
+
+```
+WORD |           PORTER |         SNOWBALL |       LEMMATIZER |
+      macklemore |        macklemor |        macklemor |       macklemore |
+        shopping |             shop |             shop |         shopping |
+            this |              thi |             this |             this |
+         awesome |           awesom |           awesom |          awesome |
+       mezzanine |         mezzanin |         mezzanin |        mezzanine |
+          washed |             wash |             wash |           washed |
+            this |              thi |             this |             this |
+             his |               hi |              his |              his |
+     handmedowns |       handmedown |       handmedown |      handmedowns |
+        addition |            addit |            addit |         addition |
+           thats |             that |             that |            thats |
+        ignorant |            ignor |            ignor |         ignorant |
+gettingswindledandpimped | gettingswindledandpimp | gettingswindledandpimp | gettingswindledandpimped |
+```
+
+
 
 ### Visualizations
 
