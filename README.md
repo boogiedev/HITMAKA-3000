@@ -197,7 +197,9 @@ The following was removed/changed:
 - Lyric Headers
 - Casing (standardized to lowercase)
 - Replace expletives with codes
-- Remove Stop Words (standard NLTK 'english')
+- Remove Stop Words (standard NLTK 'english', later revised to custom stop words)
+
+custom_stop = ['im', 'thats', 'ya', 'though', 'yeah', 'like', 'got', '2018', 'know', 'get', 'aint', 'ayy', 'go', 'na', 'back', 'one', 'gon', 'make', 'wan', 'thats', 'need', 'oh', 'see', 'feat', 'ooh', 'said', 'way', "2017", "la", 'lets', 'ft', 'let', 'hey', 'ima', 'uoeno', 'oohoohoohooh', 'ah', 'js', 'pare']
 
 
 #### Attempt to Stem/Lemmatize
