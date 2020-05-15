@@ -413,7 +413,7 @@ HIS LYRICALITY IS INSANE***
 
 ## Future Considerations
 
-- Flexmeter
+- Flexmeter (Branding Finder)
 - AD LIB Recognizer
 - KODAKBOT E V O L V E D
 
