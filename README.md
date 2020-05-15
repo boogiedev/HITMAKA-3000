@@ -79,6 +79,9 @@ The original goal of this project was to use NLP techniques, combined with Neura
 The goal of this project ended up shifting into **TOPIC MODELING** rather than a discrete prediction value. 
 The main blockage that led to this ended up being very insightful to my understanding of the NLP field. 
 
+
+---
+
 ## Exploring Data
 
 NUM  |  SOURCES             | TYPE | METRIC
