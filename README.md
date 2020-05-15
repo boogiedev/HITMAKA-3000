@@ -46,11 +46,37 @@ You're now wondering HOW we were able to do all of this? Let us show you...
 
 ## Basic Overview
 
+Natural Language Processing (NLP) is the act of using software to process speech and text, etc. This is possible with Machine Learning, having computers parse through text in an attempt to derive meaning from how we as humans express ourselves. As you may infer, there are a lot of nuances with written languages, and even more so with each specific one. Today, we are looking at processing text from the English language, more namely, rap lyrics.  
+
 ### Context
 
 
+<p >
+  <img  align="right" width="40%" src="https://thumbs.gfycat.com/SparklingFlatIslandwhistler-size_restricted.gif"></img>
+
+
+In an attempt to process the language of rap music, there are a lot of problems that arise. The prose, dictation, play on words, ad-libs, onomatopeias and other idiosyncrasies that appear in rap are hard for NLP tasks, as the tooling for this are mainly geared towards more formal and "proper" speech in terms of grammar. 
+
+</p>
+
+</br></br>
+
+For a machine to process a sentence like this:
+  > *"Jane went to the store today and bought bananas"*
+
+There are distinct parts of speech that can be broken down.
+
+The above example as opposed to this below will yeild different results:
+  > *"I'm pulling up in that Bruce Wayne but I'm the ####ing villain"*
+
 
 ### Goal
+
+The original goal of this project was to use NLP techniques, combined with Neural Netowrks in order to gain insight as to ***What makes a hit rap song?***. Althought this is a generally broad question (since rap music cannot be boiled down to simply words), the idea was to source the top 100 rap songs from each year and using the NLTK suite, find thematic elements, common trends, and the top words that were prevalent in the top songs.
+
+**TLDR**:
+The goal of this project ended up shifting into **TOPIC MODELING** rather than a discrete prediction value. 
+The main blockage that led to this ended up being very insightful to my understanding of the NLP field. 
 
 ## Exploring Data
 
@@ -76,19 +102,78 @@ NUM  |  SOURCES             | TYPE | METRIC
 
 ### Web Scraping
 
+After finding where I wanted to source my data from, I wrote a program to automatically find and parse the top songs from the years 2010-2020 as well as find the lyrics, artist, and other meta-data that belonged to each song. 
+
+
+<details>
+  <summary>
+    Scraping Functions
+  </summary>
+  
+  
+```python
+def get_top_songs(year:int, partition_artist=True) -> list:
+    '''Returns TOP 50 Rap Songs for given year'''
+    # Set Scrape URL
+    url = 'https://www.billboard.com/charts/year-end/%s/hot-rap-songs'
+    song_class = 'ye-chart-item__title'
+    artist_class = 'ye-chart-item__artist'
+    rank_class = 'ye-chart-item__rank'
+
+    # Request URL
+    response = requests.get(url % str(year))
+
+    # Create Beautiful Soup Object
+    soup = BeautifulSoup(response.content, "html.parser")
+
+    # Find All Divs with Song Title
+    song_dump = soup.findAll("div", {"class": song_class})
+    # Find All Divs with Artist name
+    artist_dump = soup.findAll("div", {"class": artist_class})
+    # Find All Divs with Song Rank
+    rank_dump = soup.findAll("div", {"class": rank_class})
+
+    # Derive Song titles from song_dump
+    songs = [entry.get_text(strip=True) for entry in song_dump]
+    # Derive Artist names from artist_dump
+    artists = [entry.get_text(strip=True) for entry in artist_dump]
+    # Derive Song Ranks from rank_dump
+    rankings = [entry.get_text(strip=True) for entry in rank_dump]
+    
+    if partition_artist:
+        artists = [x.partition('Featuring')[0] for x in artists]
+        featured = [x.partition('Featuring')[2] for x in artists]
+
+    return list(zip(songs, artists, featured, rankings))
+```
+
+</details>
+
 
 
 ### Initial Intake
 
-Just found out that the data that I scraped is flawed, from 2000-2013, the billboard website is glitched and are reporting the same songs for those 13 years.
-
-Here is a detailed description of the intake data:
-- `ID`: Report ID
+When the scraping was finished, I translated all of the information I needed into a data-frame and then exported it to a CSV for future use.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/boogiedev/HITMAKA-3000/master/media/"></img>
+  <img src="https://raw.githubusercontent.com/boogiedev/HITMAKA-3000/master/media/intakedata.PNG"></img>
 </p>
 
+Here is a detailed description of the intake data:
+- `song`: Song Name
+- `artist`: Artist Name
+- `featured`: Featured Artist Names
+- `rank`: Song Ranking
+- `year`: Chart Year
+- `lyrics`: Song Lyrics
+- `lyrics_state`: Lyrics State (if lyrics were complete)
+- `song_id`: Song ID on GeniusAPI 
+- `lyrics_owner_id`: Lyric Owner ID
+- `primary_artist_url`: Primary Artist's GeniusAPI URL Endpoint (if needed to backtrack)
+
+
+*Note*
+> Just found out that the data that I scraped is flawed, from 2000-2013, the billboard website is glitched and are reporting the same songs for those 13 years.
 
 
 ### Visualizations
