@@ -171,7 +171,9 @@ This looks so much better!
 
 
 <p>
-  <img width="70%" align="right" src="https://static1.squarespace.com/static/551d9102e4b0cd11d25c2f4c/56788d7e05f8e228a3967706/5c0882766d2a733381843f5d/1544061951190/homepage_list-7.gif"></img>
+  
+  <img width="50%" align="right" src="https://static1.squarespace.com/static/551d9102e4b0cd11d25c2f4c/56788d7e05f8e228a3967706/5c0882766d2a733381843f5d/1544061951190/homepage_list-7.gif"></img>
+  
 </p>
 
 
