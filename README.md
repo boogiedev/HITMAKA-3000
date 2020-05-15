@@ -169,10 +169,13 @@ It seems like with the NLTK module, some of the slang and informal spelling of w
 This looks so much better!
 
 
+***We had to stop because the KODAKBOT started becoming self aware, so we ceased to push this endeavour in order to protect humanity (and the rap scene).***
 
 ## Future Considerations
 
-- Flexmeter 
+- Flexmeter
+- AD LIB Recognizer
+- KODAKBOT E V O L V E D
 
 ## License
 [MIT ©](https://choosealicense.com/licenses/mit/)
