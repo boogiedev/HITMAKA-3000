@@ -79,7 +79,7 @@ Here is a detailed description of the intake data:
 
 #### LDA Results
 
-```python
+```
 Topics found via LDA:
 
 Topic #0:
