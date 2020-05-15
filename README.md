@@ -169,11 +169,15 @@ It seems like with the NLTK module, some of the slang and informal spelling of w
 This looks so much better!
 
 
+
 <p>
-  <img align="right" src="https://static1.squarespace.com/static/551d9102e4b0cd11d25c2f4c/56788d7e05f8e228a3967706/5c0882766d2a733381843f5d/1544061951190/homepage_list-7.gif?format=1500w"></img>
+  <img align="right" src="https://static1.squarespace.com/static/551d9102e4b0cd11d25c2f4c/56788d7e05f8e228a3967706/5c0882766d2a733381843f5d/1544061951190/homepage_list-7.gif?format=1000w" width="70%"></img>
 </p>
 
+
 ***We had to stop because the KODAKBOT started becoming self aware, so we ceased to push this endeavour in order to protect humanity (and the rap scene).***
+
+<br/>
 
 ## Future Considerations
 
