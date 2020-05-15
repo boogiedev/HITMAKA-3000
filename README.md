@@ -220,12 +220,23 @@ Epoch 20/20
 
 ---
 
+
+### Performance and Manual Sentiment Analysis
+
+Sample Output BARs| Thoughts
+:--: | :--: |
+im so fed up i dont even chase the same | Aligns with message, sounds like him
+i fell in love with the pole, i be rollin in the open | Sounds like he is in a club
+i be so drive it in my feet, i just wanna ride candy | ...?
+
+
+---
+
 <p>
   
   <img width="25%" align="right" src="https://static1.squarespace.com/static/551d9102e4b0cd11d25c2f4c/56788d7e05f8e228a3967706/5c0882766d2a733381843f5d/1544061951190/homepage_list-7.gif"></img>
   
 </p>
-
 
 ***We had to stop because the KODAKBOT started becoming self aware, so we ceased to push this endeavour in order to protect humanity (and the rap scene).*** 
 
