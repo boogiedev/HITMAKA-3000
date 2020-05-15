@@ -43,7 +43,7 @@ It will help you with:
 
 SOURCES             | TYPE | METRIC
 :-------------------------:|:-------------------------:|:-------------------------:|
-[BILLBOARD YEAR-END CHARTS](https://www.billboard.com/charts/year-end/2019/hot-r-and-and-b-hip-hop-songs)  | Top Charts |  2015-2020
+[BILLBOARD YEAR-END CHARTS](https://www.billboard.com/charts/year-end/2019/hot-r-and-and-b-hip-hop-songs)  | Top Charts |  2010-2020
 [GENIUS API](https://docs.genius.com/)  | Lyrics |  *
 
 
