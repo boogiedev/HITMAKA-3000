@@ -16,8 +16,9 @@
   - [Web Scraping](#web-scraping)
   - [Initial Intake](#initial-intake)
 - [Language Processing](#language-processing)
-  - [Tokenizing](#tokenizing)
+  - [Text Cleaning](#text-cleaning)
   - [Visualizations](#visualizations)
+  - [Latent Dirichlet Allocation](#latent-dirichlet-allocation)
 - [**K O D A K  B O T  3 0 0 0**](#k-o-d-a-k--b-o-t--3-0-0-0)
 - [Future Considerations](#future-considerations)
 - [License](#license)
@@ -175,10 +176,14 @@ Here is a detailed description of the intake data:
 *Note*
 > Just found out that the data that I scraped is flawed, from 2000-2013, the billboard website is glitched and are reporting the same songs for those 13 years.
 
+## Language Processing
+
+### Text Cleaning
 
 ### Visualizations
 
 
+## Latent Dirichlet Allocation
 
 #### LDA Results
 
