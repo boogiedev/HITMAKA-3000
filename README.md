@@ -283,6 +283,8 @@ To tell briefly, LDA imagines a fixed set of topics. Each topic represents a set
 <img align='center' src='https://miro.medium.com/max/1400/1*QQTk2TGyzhakGh0lZ9P03w.jpeg' />
 
 
+*Each document can be described by a distribution of topics and each topic can be described by a distribution of words*
+
 #### Baseline Count Vectorized LDA:
 
 Using a CountVectorizer, a baseline model was created, producing these results.
