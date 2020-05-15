@@ -27,6 +27,16 @@
 
 ### Context
 
+Are you an aspiring SoundCloud rapper? Are you tired of spamming clickbait comments on social media to gain views? 
+
+Well fear no more, HITMAKA Industries is here to help you. We gurantee that your rap career will blow up if you use our newest invention, the HITMAKA3000! Using advanced Machine Learning techniques, we have created a Natural Language Processor that has analyzed the lyrics of all the TOP rap songs in the last 10 years! This has given us KEY insights as to what makes a rap song lyrically hot! Our HITMAKA3000 will provide you with all the things you need to lyrically make the next hottest hit! 
+
+It will help you with:
+- Name Dropping
+- Theme
+- Flexmeter (Patented)
+- AD LIBZ (beta testing)
+
 ### Goal
 
 ## Exploring Data
