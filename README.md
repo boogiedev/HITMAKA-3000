@@ -186,8 +186,6 @@ textgen.train_from_file('kodak_lyrics.txt', num_epochs=20)
 
 #### Epoch 1
 ```
-15,322 texts collected.
-Training on 641,134 character sequences.
 Epoch 1/20
 5008/5008 [==============================] - 64s 13ms/step - loss: 1.3509
 ####################
@@ -207,7 +205,9 @@ i was still a lil ****** when i got the streets
 Epoch 20/20
 5008/5008 [==============================] - 61s 12ms/step - loss: 0.9543
 ```
-<span>
+---
+
+<p>
   <img src="https://raw.githubusercontent.com/boogiedev/HITMAKA-3000/master/media/temp1.PNG">
   </img>
   
@@ -216,9 +216,9 @@ Epoch 20/20
   
   <img src="https://raw.githubusercontent.com/boogiedev/HITMAKA-3000/master/media/temp3.PNG">
   </img>
-</span>
+</p>
 
-
+---
 
 <p>
   
