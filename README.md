@@ -89,14 +89,12 @@ NUM  |  SOURCES             | TYPE | METRIC
 1 | [BILLBOARD YEAR-END CHARTS](https://www.billboard.com/charts/year-end/2019/hot-r-and-and-b-hip-hop-songs)  | Top Charts |  2010-2020
 2 | [GENIUS API](https://docs.genius.com/)  | Lyrics |  *
 
-## 1:
 <p align="center">
   <img src="https://raw.githubusercontent.com/boogiedev/HITMAKA-3000/master/media/bill_board.gif"></img>
 </p>
 
 </br>
 
-## 2:
 <p align="center">
   <img src="https://raw.githubusercontent.com/boogiedev/HITMAKA-3000/master/media/genius_api.gif"></img>
 </p>
