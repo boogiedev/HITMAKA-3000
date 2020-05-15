@@ -255,6 +255,13 @@ gettingswindledandpimped | gettingswindledandpimp | gettingswindledandpimp | get
 ### Visualizations
 
 
+Type             |  Visual
+:-------------------------:|:-------------------------:
+10 Most Common Words Across Corpus |  ![](https://github.com/boogiedev/HITMAKA-3000/blob/master/media/10commonpre.png)
+Baseline Word Cloud |  ![](https://github.com/boogiedev/HITMAKA-3000/blob/master/media/first_cloud.png)
+Custom Processed Word Cloud |  ![](https://github.com/boogiedev/HITMAKA-3000/blob/master/media/remove_expl_cloud.png)
+2019 Processed Word Cloud |  ![](https://github.com/boogiedev/HITMAKA-3000/blob/master/media/2019cloud.png)
+
 
 
 ## Topic Modeling
@@ -263,13 +270,15 @@ gettingswindledandpimped | gettingswindledandpimp | gettingswindledandpimp | get
 
 ***What is LDA?***
 
+[Intuitive Guide to Latent Dirichlet Allocation](https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-latent-dirichlet-allocation-437c81220158)
+
 </br>
 
 Topic modelling refers to the task of identifying topics that best describes a set of documents. These topics will only emerge during the topic modelling process (therefore called latent). And one popular topic modelling technique is known as Latent Dirichlet Allocation (LDA). Though the name is a mouthful, the concept behind this is very simple.
 
 </br>
 
-To tell briefly, LDA imagines a fixed set of topics. Each topic represents a set of words. And the goal of LDA is to map all the documents to the topics in a way, such that the words in each document are mostly captured by those imaginary topics. We will systematically go through this method by the end which you will be comfortable enough to use this method on your own.
+To tell briefly, LDA imagines a fixed set of topics. Each topic represents a set of words. And the goal of LDA is to map all the documents to the topics in a way, such that the words in each document are mostly captured by those imaginary topics.
 
 <img align='center' src='https://miro.medium.com/max/1400/1*QQTk2TGyzhakGh0lZ9P03w.jpeg' />
 
