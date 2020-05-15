@@ -25,9 +25,13 @@
 
 # HITMAKA INDUSTRIES 
 
-Are you an aspiring SoundCloud rapper? Are you tired of spamming clickbait comments on social media to gain views? 
+***Are you an aspiring SoundCloud rapper? Are you tired of spamming clickbait comments on social media to gain views?***
 
-Well fear no more, HITMAKA Industries is here to help you. We gurantee that your rap career will blow up if you use our newest invention, the HITMAKA3000! Using advanced Machine Learning techniques, we have created a Natural Language Processor that has analyzed the lyrics of all the TOP rap songs in the last 10 years! This has given us KEY insights as to what makes a rap song lyrically hot! Our HITMAKA3000 will provide you with all the things you need to lyrically make the next hottest hit! 
+Well fear no more, HITMAKA Industries is here to help you. We gurantee that your rap career will blow up if you use our newest invention, the **HITMAKA3000**!
+</br>
+Using advanced *Machine Learning* techniques, we have created a Natural Language Processor that has analyzed the lyrics of all the TOP rap songs in the last 10 years!
+</br>
+This has given us **KEY** insights as to what makes a rap song lyrically hot! Our **HITMAKA3000** will provide you with all the things you need to lyrically make the next hottest hit! 
 
 It will help you with:
 - Name Dropping
@@ -42,14 +46,28 @@ You're now wondering HOW we were able to do all of this? Let us show you...
 
 ### Context
 
+
+
 ### Goal
 
 ## Exploring Data
 
-SOURCES             | TYPE | METRIC
-:-------------------------:|:-------------------------:|:-------------------------:|
-[BILLBOARD YEAR-END CHARTS](https://www.billboard.com/charts/year-end/2019/hot-r-and-and-b-hip-hop-songs)  | Top Charts |  2010-2020
-[GENIUS API](https://docs.genius.com/)  | Lyrics |  *
+NUM  |  SOURCES             | TYPE | METRIC
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
+1 | [BILLBOARD YEAR-END CHARTS](https://www.billboard.com/charts/year-end/2019/hot-r-and-and-b-hip-hop-songs)  | Top Charts |  2010-2020
+2 | [GENIUS API](https://docs.genius.com/)  | Lyrics |  *
+
+## 1:
+<p align="center">
+  <img src="https://raw.githubusercontent.com/boogiedev/HITMAKA-3000/master/media/bill_board.gif"></img>
+</p>
+
+</br>
+
+## 2:
+<p align="center">
+  <img src="https://raw.githubusercontent.com/boogiedev/HITMAKA-3000/master/media/geniusapi.gif"></img>
+</p>
 
 
 
@@ -73,14 +91,11 @@ Here is a detailed description of the intake data:
 
 ### Visualizations
 
-LDA             | 
-:-------------------------:|
-[Pre LDA Report](https://boogiedev.github.io/HITMAKA-3000/lda.html)  |
-[Post LDA Report](https://boogiedev.github.io/HITMAKA-3000/post_lda.html)  | 
-
 
 
 #### LDA Results
+
+#### Baseline LDA:
 
 ```
 Topics found via LDA:
@@ -93,7 +108,13 @@ expletive_3 expletive_1 expletive_0 expletive_4 baby love right cause time say g
 
 Topic #2:
 gang gucci watch lil wicked drake cut love west kanye bust expletive_3 bop expletive_1 young
+```
+<details>
+  <summary>
+    More Topics
+  </summary>
 
+```
 Topic #3:
 hitta hittas love lil 2016 money black expletive_3 young ring saying rake world rich mask
 
@@ -106,6 +127,63 @@ expletive_0 expletive_3 expletive_4 hol really expletive_1 look want man em say 
 Topic #6:
 expletive_0 expletive_1 expletive_3 baby want expletive_4 hit love pop right expletive_2 ta girl cause money
 ```
+
+</details>
+
+#### Final LDA:
+
+```
+Topics found via LDA:
+
+Topic #0:
+walk talk gotta lot times want twerk dance bandz love break lil tell cabello moves good time man hit came
+
+Topic #1:
+feel thun drop stoner time type wanna want love tell good plug say wait man cause look girl hate face
+
+Topic #2:
+gang watch gucci cut cardi whip hot bop nae brr wrist kitchen 21 stir cartier fry huh chain woo nah
+```
+<details>
+  <summary>
+    More Topics
+  </summary>
+
+```
+Topic #3:
+dog maybe jesus beat say ride huh tried tryna want wanna leave cause baby skrrt time feed run gotta came
+
+Topic #4:
+hitta hittas look love wicked drake kanye west want panda future tap butt lil hours remix good dj dm girl
+
+Topic #5:
+baby girl right say better cause think tell want wanna turn crazy gave tryna man hit time looking come friends
+
+Topic #6:
+keys love feet woo lil different mask coco come clout big brown chase good savage talk ye bad time aap
+
+Topic #7:
+wanna bust taste goin time right real want mediocre better really timber cause rake big end tell love round come
+
+Topic #8:
+gas pedal tiimmy want new swear walkin man uh life right type em soul kill bet everybody knows git hit
+
+Topic #9:
+nothin money hit really bout jumpman quan worried bank lil big say woo cause new em low rap somethin boy
+
+Topic #10:
+want pop uh problem stop love bad right say em feelin look money tryna mind rollie good red young girl
+```
+
+</details>
+
+
+
+#### LDA Visualizations:
+LDA             | 
+:-------------------------:|
+[Pre LDA Report](https://boogiedev.github.io/HITMAKA-3000/lda.html)  |
+[Post LDA Report](https://boogiedev.github.io/HITMAKA-3000/post_lda.html)  | 
 
 ---
 
