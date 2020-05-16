@@ -84,7 +84,7 @@ The above example as opposed to this below will yeild different results:
 
 ### Goal
 
-The original goal of this project was to use NLP techniques, combined with Neural Netowrks in order to gain insight as to ***What makes a hit rap song?***. Althought this is a generally broad question (since rap music cannot be boiled down to simply words), the idea was to source the top 100 rap songs from each year and using the NLTK suite, find thematic elements, common trends, and the top words that were prevalent in the top songs.
+The original goal of this project was to use NLP techniques, combined with Neural Networks in order to gain insight as to ***What makes a hit rap song?***. Althought this is a generally broad question (since rap music cannot be boiled down to simply words), the idea was to source the top 100 rap songs from each year and using the NLTK suite, find thematic elements, common trends, and the top words that were prevalent in the top songs.
 
 **TLDR**:
 The goal of this project ended up shifting into *unsupervised* **TOPIC MODELING** rather than a discrete prediction value. 
